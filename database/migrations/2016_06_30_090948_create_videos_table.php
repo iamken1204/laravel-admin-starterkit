@@ -20,6 +20,7 @@ class CreateVideosTable extends Migration
             $table->string('author', 15)->index();
             // The second argument for integer() is the flag for autoincrement
             // and the third is for unsigned.
+            // func (table *Blueprint) Integer(columnName string, autoIncrement, unsigned bool)
             $table->integer('likes', false, true)->index();
             $table->integer('theme_id', false, true)->index();
             $table->string('thumb_url');
