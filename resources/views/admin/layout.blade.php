@@ -87,7 +87,12 @@
         </aside>
 
         <div class="content-wrapper">
-            @yield('content')
+            @yield('content-header')
+            <section class="content">
+                <div class="row">
+                    @yield('content')
+                </div>
+            </section>
         </div>
 
         <!-- Main Footer -->
