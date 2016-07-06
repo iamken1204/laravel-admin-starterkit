@@ -11,3 +11,11 @@ Route::get('/', function () {
     // var_dump(DB::connection()->getDatabaseName());
     return view('admin.layout');
 });
+
+$adminGroupSetting = [
+    'namespace' => 'admin',
+    'prefix' => 'admin'
+];
+Route::group($adminGroupSetting, function() {
+    Route::get('/', function() { return view('admin.index'); });
+});
