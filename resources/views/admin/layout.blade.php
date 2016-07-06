@@ -38,22 +38,20 @@
                 <li class="dropdown user user-menu">
                   <!-- Menu Toggle Button -->
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <!-- The user image in the navbar-->
-                    <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
                     <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                    <span class="hidden-xs">Alexander Pierce</span>
+                    <span class="hidden-xs">後台管理</span>
                   </a>
                   <ul class="dropdown-menu">
                     <!-- The user image in the menu -->
                     <li class="user-header">
                       <p>
-                        Alexander Pierce - Web Developer
+                        後台管理
                       </p>
                     </li>
                     <!-- Menu Footer-->
                     <li class="user-footer">
                       <div class="pull-right">
-                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                        <a href="#" class="btn btn-default btn-flat">登出</a>
                       </div>
                     </li>
                   </ul>
@@ -96,10 +94,10 @@
         <footer class="main-footer">
             <!-- To the right -->
             <div class="pull-right hidden-xs">
-                Anything you want
+                If have any questions, please refer to RD2.
             </div>
             <!-- Default to the left -->
-            <strong>yam &copy; 2016 <a href="#">kids</a>.</strong>
+            <strong>yam &copy; 2016 <a href="http://kidsmovie.event.yam.com">kids movie</a>.</strong>
         </footer>
     </div>
 
