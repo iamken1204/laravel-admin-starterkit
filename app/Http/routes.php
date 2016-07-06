@@ -7,7 +7,7 @@ Blade::setContentTags('<%', '%>');
 Blade::setEscapedContentTags('<%%', '%%>');
 
 Route::get('/', function () {
-    echo public_path();exit;
-    var_dump(DB::connection()->getDatabaseName());
-    // return view('welcome');
+    // echo asset('img');exit;
+    // var_dump(DB::connection()->getDatabaseName());
+    return view('admin.layout');
 });
