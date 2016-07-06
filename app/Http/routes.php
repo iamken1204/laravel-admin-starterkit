@@ -1,17 +1,13 @@
 <?php
 
-/*
-|--------------------------------------------------------------------------
-| Application Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register all of the routes for an application.
-| It's a breeze. Simply tell Laravel the URIs it should respond to
-| and give it the controller to call when that URI is requested.
-|
-*/
+/**
+ * Changes the content tags for blade system.
+ */
+Blade::setContentTags('<%', '%>');
+Blade::setEscapedContentTags('<%%', '%%>');
 
 Route::get('/', function () {
+    echo public_path();exit;
     var_dump(DB::connection()->getDatabaseName());
     // return view('welcome');
 });
