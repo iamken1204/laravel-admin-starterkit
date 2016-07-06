@@ -2,15 +2,10 @@
 
 @section('content')
 
-<section class="content-header">
-    <h1>
-        Index Page
-        <small>Subtitle</small>
-    </h1>
-    <div class="breadcrumb">
-        /admin
-    </div>
-</section>
+@include('admin.partials.content-header', [
+    'title' => 'Table Title',
+    'subtitle' => 'subtitle'
+])
 
 <section class="content">
     <div class="row">
